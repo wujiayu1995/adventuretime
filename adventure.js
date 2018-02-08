@@ -12,7 +12,7 @@ var treasureY = 1
 
 
 
-function startgame ()
+
 
 //flag that controls loop
 
@@ -75,8 +75,8 @@ while (!treasureFound)
         console.log("There is a forbiding moutain range in that direction, you cannot go")
       }
       
-      window.alert(""OMG " + name +"you found it!"");
-      window.location.href = "win.html";
+      window.alert("OMG " + name +"you found it!");
+     
 
-      
+      window.location.href = "win.html";
     
